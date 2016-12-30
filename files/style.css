@@ -1,0 +1,474 @@
+body {
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	font-size: 18px;
+	line-height: 27px;
+}
+h1,h2,h3,h4 {
+	font-weight: 300;
+}
+h1 {
+	font-size: 3.5em;
+	line-height: 1.25em;
+}
+.centered-image-container img{
+	margin: auto;
+}
+.btn {
+	border: none;
+	padding: 20px 30px;
+	margin: 0 10px 10px 0;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+}
+.btn[disabled] {
+	opacity: 1;
+	background: #666;
+}
+.btn i {
+	margin-right: 5px;
+	font-size: 1.2em;
+}
+.form-message {
+	display: none;
+}
+.dark-version {
+	background: #1e1e1e;
+	color: #b0b0b0;
+}
+.dark {
+	background: rgba(0,0,0, 0.05);
+}
+.light {
+	background: rgba(255,255,255, 0.05);
+}
+section {
+	padding-top: 70px;
+	padding-bottom: 100px;
+}
+.no-top-margin {
+	margin-top: 0px;
+}
+.section-header {
+	margin-bottom: 50px;
+}
+/*-----------------------------------*/
+.left-align {
+	text-align: left;
+}
+.right-align {
+	text-align: right;
+}
+/*-----------------------------------*/
+p {
+	margin: 0 0 20px;
+}
+ul {
+	padding-left: 0;
+	list-style: none;
+}
+ul li {
+	line-height: 2em;
+}
+ul li i {
+	margin-right: 15px;
+	width: 20px;
+}
+.underline, .underline-center {
+	width: 100px;
+	height: 3px;
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.underline-center {
+	margin-left: auto;
+	margin-right: auto;
+}
+/* style for animation **************************************************/
+.animate-this {
+	opacity: 0;
+}
+/* form element style **************************************************/
+.form-control {
+	padding: 0 18px;
+	font-size: 1em;
+	height: 63px;
+	line-height: 1.2em;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	border: rgba(0,0,0, 0);
+}
+.form-inline .form-control {
+	margin-bottom: 11px;
+}
+.form-control:focus {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+textarea.form-control {
+	height: 100px;
+	margin-bottom: 20px;
+	font-family: inherit;
+	font-size: 1em;
+	padding-top: 10px;
+}
+/**********************************************************************************
+		 		preloader 
+**********************************************************************************/
+.preload {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+/**********************************************************************************
+		 		header area
+**********************************************************************************/
+.overlay {
+	background: url(bg-pattern.png);
+	padding-top: 70px;
+	padding-bottom: 100px;
+}
+header {
+	background: url(cover-2.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+	text-align: left;
+	position: relative;
+}
+.navbar-header {
+	float: none;
+	text-align: center;
+	margin: 0 0 50px;
+}
+.home-content {
+	padding-bottom: 100px;
+}
+.home-content h1 {
+	color: #fff;
+}
+.intro-description {
+	margin: 40px auto;
+}
+
+/**********************************************************************************
+		 		main feature
+**********************************************************************************/
+.feature {
+	margin-bottom: 80px;
+}
+.right-features .feature-icon {
+	float: left;
+	margin-right: 20px;
+}
+.left-features .feature-icon {
+	float: right;
+	margin-left: 20px;
+}
+.feature-icon {
+	margin-top: 12px;
+}
+.feature-icon  i {
+	height: 95px;
+	width: 95px;
+	font-size: 36px;
+	padding: 25px;
+	border: 3px solid;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	position: relative;
+	text-align: center;
+}
+/**********************************************************************************
+		 		vedio section 
+**********************************************************************************/
+.video-container {
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 */
+  position: relative;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+/**********************************************************************************
+		 		feature block 
+**********************************************************************************/
+.feature-block-icon i{
+	height: 95px;
+	width: 95px;
+	font-size: 36px;
+	padding: 25px;
+	border: 3px solid;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	position: relative;
+}
+/**********************************************************************************
+		 		testtimonial 
+**********************************************************************************/
+.testimonial-section {
+	background: url(cover-2.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+	padding: 0;
+}
+.testimonial {
+	max-width: 700px;
+	margin: auto;
+	font-size: 1.2em;
+	line-height: 1.6em;
+	letter-spacing: .5px;
+}
+.testimonial img {
+height: 120px;
+width: 120px;
+border: 3px solid rgba(255,255,255, .5);
+margin-bottom: 20px;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+}
+.testimonial .client-name {
+	font-size: .8em;
+	margin-top: 20px;
+}
+.testimonial .client-designation {
+	font-size: .8em;
+	margin-top: -10px;
+	margin-bottom: 10px;
+
+}
+.owl-theme .owl-controls .owl-buttons div {
+	background: transparent;
+	color: #FFF;
+	border: 2px solid #869791;
+	font-size: 22px;
+	padding: 2px 13px 5px;
+}
+/**********************************************************************************
+		 		sereenshot galarry
+**********************************************************************************/
+.shot {
+	margin: 0 15px;
+	padding: 5px;
+	border: 1px solid #666;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.shot img {
+	width: 100%;
+}
+/**********************************************************************************
+		 		download
+**********************************************************************************/
+.download-section {
+	background: url(cover-3.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+	padding: 0;
+}
+/**********************************************************************************
+		 		subscribe 
+**********************************************************************************/
+.subscribe .btn-default:hover {
+	background: #666;
+	color: #fff;
+}
+.subscribe .form-control {
+	min-width: 300px;
+}
+/**********************************************************************************
+		 		contact section 
+**********************************************************************************/
+.contact-section {
+	background: url(cover-4.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+	padding: 0;
+}
+.contact-section .form-control {
+	color: #fff;
+	background: rgba(0,0,0, .4);
+}
+/**********************************************************************************
+		 		owl carosel element style 
+**********************************************************************************/
+.owl-pagination {
+	margin-top: 20px;
+}
+.owl-theme .owl-controls .owl-page span {
+width: 30px;
+height: 3px;
+margin: 5px 10px;
+}
+
+/**********************************************************************************
+		 		footer style 
+**********************************************************************************/
+footer {
+	padding-top: 60px;
+}
+.top-link-container {
+	position: relative;
+}
+.link-to-top {
+	position: absolute;
+	font-size: 1.2em;
+	color: #666;
+	padding: 5px;
+	top: -24px;
+	margin-left: -24px;
+	background: #fff;
+}
+.dark-version .link-to-top {
+	background: #1e1e1e;
+}
+.link-to-top i {
+	border: 1px solid;
+	width: 40px;
+	padding: 8px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+.social-icon-container {
+margin-top: 30px;
+margin-bottom: 40px;
+}
+.social-icon-container li {
+	display: inline;
+	line-height: 1em;
+}
+.social-icon-container li a {
+	display: inline-block;
+	font-size: 1em;
+	padding: 7px;
+	margin: 5px 3px;
+	width: 32px;
+	text-align: center;
+	background: #e1e1e1;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.social-icon-container li a i {
+	color: #6f6f6f;
+	margin: 0;
+}
+.dark-version .social-icon-container li a{
+	background: #505050;
+}
+.dark-version .social-icon-container li a i {
+	color: #1e1e1e;
+}
+
+/* copyright **************************************************/
+.copyright {
+	padding: 40px 0 40px;
+	border-top: 1px solid #666;
+}
+
+/**********************************************************************************
+		 		responsive 
+**********************************************************************************/
+@media (max-width: 767px ) {
+	header {
+		text-align: center;
+	}
+	.feature {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.right-features .feature-icon, .left-features .feature-icon {
+		float: none;
+	}
+	.right-features .feature-icon {
+		margin-right: 0;
+	}
+	.left-features .feature-icon {
+		margin-left: 0;
+	}
+	.left-align, .right-align {
+		text-align: center;
+	}
+	.left-align .feature, .right-align .feature {
+		text-align: center;
+	}
+	.underline {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.video-container {
+		margin-bottom: 20px;
+	}
+}
+@media (min-width: 768px ) and (max-width: 991px ) {
+	.left-align, .right-align {
+		text-align: center;
+	}
+	.left-align .feature {
+		text-align: left;
+	}
+	.right-align .feature {
+		text-align: right;
+	}
+	.underline {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.video-container {
+		margin-bottom: 20px;
+	}
+	.feature {
+		margin-bottom: 0;
+	}
+}
+@media (min-width: 768px) {
+	..feature-icon {
+		min-height: 150px;
+	}
+	
+}
+
+/**********************************************************************************
+		 		logos
+**********************************************************************************/
+
+#logoesteemheader {
+	width: 20vw;
+}
+
+#logoesteemfooter {
+	width: 12vw;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 667px) { 
+#logoesteemheader {
+	width: 55vw !important;
+	
+
+}
+
+#logoesteemfooter {
+	width: 30vw !important;
+
+}
+
+}
