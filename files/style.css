@@ -132,7 +132,7 @@ textarea.form-control {
 		 		header area
 **********************************************************************************/
 .overlay {
-	background: url(bg-pattern.png);
+	/*background: url(bg-pattern.png);*/
 	padding-top: 70px;
 	padding-bottom: 100px;
 }
