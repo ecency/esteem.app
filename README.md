@@ -1,1 +1,1 @@
-# Website: http://www.esteem.ws
+# eSteem mobile/desktop app website
