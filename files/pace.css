@@ -44,11 +44,11 @@
   font-weight: 100;
   text-align: center;
 
-  -webkit-animation: pace-3d-spinner linear infinite 2s;
-  -moz-animation: pace-3d-spinner linear infinite 2s;
-  -ms-animation: pace-3d-spinner linear infinite 2s;
-  -o-animation: pace-3d-spinner linear infinite 2s;
-  animation: pace-3d-spinner linear infinite 2s;
+  -webkit-animation: pace-3d-spinner linear infinite 1s;
+  -moz-animation: pace-3d-spinner linear infinite 1s;
+  -ms-animation: pace-3d-spinner linear infinite 1s;
+  -o-animation: pace-3d-spinner linear infinite 1s;
+  animation: pace-3d-spinner linear infinite 1s;
 
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
