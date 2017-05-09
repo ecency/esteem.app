@@ -132,7 +132,7 @@ textarea.form-control {
 		 		header area
 **********************************************************************************/
 .overlay {
-	/*background: url(bg-pattern.png);*/
+	background: url(bg-pattern.png);
 	padding-top: 70px;
 	padding-bottom: 100px;
 }
@@ -471,4 +471,55 @@ margin-bottom: 40px;
 
 }
 
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background: rgba(31,83,152,1)!important;
+    overflow: hidden!important;
+    position: fixed!important;
+    top: 0!important;
+    z-index: 1000;
+    float: right;
+    width: 100%;
+
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right!important;
+    display: block!important;
+    color: white!important;
+    text-align: center!important;
+    padding: 14px 16px!important;
+    text-decoration: none!important;
+    font-size: 14pt!important;
+    margin: 3px 0px;
+    border-radius: 25px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a.webapp {
+    float: right!important;
+    display: block!important;
+    color: white!important;
+    text-align: center!important;
+    padding: 14px 16px!important;
+    text-decoration: none!important;
+    font-size: 14pt!important;
+    font-style: italic;
+    border: 0.5px solid;
+    border-radius: 25px;
+    margin-right: 15px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: rgba(82,162,238,1)!important;
+    color: rgba(31,83,152,1)!important;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: rgba(31,83,152,1)!important;
+    color: white!important;
 }
