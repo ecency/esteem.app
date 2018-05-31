@@ -1,1 +1,1 @@
-# eSteem mobile/desktop app website
+# eSteem Mobile & eSteem Surfer application official website
