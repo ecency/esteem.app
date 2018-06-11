@@ -550,6 +550,15 @@ a {
   text-align: left;
 }
 
+.image-2 {
+  display: block;
+  text-align: center;
+}
+
+.heading-7 {
+  color: #284b78;
+}
+
 @media (max-width: 991px) {
   .button.nav {
     margin-left: 11px;

@@ -484,9 +484,6 @@ textarea.w-select {
   background-size: 20px 20px;
   background-repeat: no-repeat;
 }
-.w-file-upload-label-error {
-  border: 1px solid #ea384c;
-}
 .w-icon-file-upload {
   width: 20px;
   height: 20px;
