@@ -559,6 +559,13 @@ a {
   color: #284b78;
 }
 
+.form {
+  display: block;
+  padding-right: 300px;
+  padding-left: 300px;
+  text-align: center;
+}
+
 @media (max-width: 991px) {
   .button.nav {
     margin-left: 11px;
